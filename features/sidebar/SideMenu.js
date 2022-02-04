@@ -82,6 +82,29 @@ function SideMenu() {
           </p>
         </div>
       )}
+      {/* Hash tags */}
+      <div className="pt-10">
+        <h5 className="text-black-haze-900 text-sm py-2">Twojie przycznia</h5>
+        <div className="flex items-center space-x-3">
+          <p className="text-lochmara-500 text-sm cursor-pointer">#system</p>
+          <p className="text-lochmara-500 text-sm cursor-pointer">#frozwoju</p>
+          <p className="text-lochmara-500 text-sm cursor-pointer">
+            #finansowej
+          </p>
+        </div>
+        <div className="flex items-center space-x-3 pt-1 pb-3">
+          <p className="text-lochmara-500 text-sm cursor-pointer">#system</p>
+          <p className="text-lochmara-500 text-sm cursor-pointer">
+            #finansowej
+          </p>
+        </div>
+        <h5 className="text-black-haze-900 text-sm pt-3">Edukacjo</h5>
+        <div className="flex items-center space-x-3 py-1">
+          <p className="text-lochmara-500 text-sm cursor-pointer">#poroda</p>
+          <p className="text-lochmara-500 text-sm cursor-pointer">#pomoc</p>
+          <p className="text-lochmara-500 text-sm cursor-pointer">#upadku</p>
+        </div>
+      </div>
     </div>
   );
 }
